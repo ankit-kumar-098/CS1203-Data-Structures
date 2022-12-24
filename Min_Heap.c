@@ -54,7 +54,7 @@ int main(int argc, char const *argv[])
     scanf("%d", &n);
     A = generateArray(n); 
     printArray(A, n);
-    makeMinHeap(A, n);
+    createMinHeap(A, n);
 
     printArray(A, n);
     free(A);
